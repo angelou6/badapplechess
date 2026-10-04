@@ -12,4 +12,4 @@ This repo comes with precomputed frames. In case you want to regenerate them any
 
 - "Uncomment" `"_js": ["js/generateframes.js"]` and "comment" `"js": ["js/badapple.js"]`.
 
-- Enter https://www.chess.com/ and look at the console, the generated frames should appear there.
+- Enter https://www.chess.com/analysis and open the console, the generated frames should appear there.
