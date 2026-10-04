@@ -95,24 +95,20 @@ async function play() {
   requestAnimationFrame(step);
 }
 
-waitForElement(".setup-board-component", (el) => {
-  var buttonComponent = document.createElement("div");
+waitForElement(".analysis-smart-input-component", (el) => {
+  var buttonComponent = document.createElement("button");
   buttonComponent.classList.add(
-    "setup-board-option-component",
-    "sidebar-row-component",
-    "setup-board-option-component",
+    "cc-button-component",
+    "cc-button-secondary",
+    "cc-button-large",
+    "cc-button-full",
   );
 
-  var button = document.createElement("button");
   buttonLabel = document.createElement("span");
-
   buttonLabel.innerText = "Play bad apple";
-  buttonLabel.classList.add("setup-board-option-label");
-  button.append(buttonLabel);
 
-  buttonComponent.appendChild(button);
+  buttonComponent.append(buttonLabel);
+  buttonComponent.onclick = play;
 
-  button.onclick = play;
-
-  el.prepend(buttonComponent);
+  el.append(buttonComponent);
 });
