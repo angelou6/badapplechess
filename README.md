@@ -1,12 +1,12 @@
-# badapplechess
+# Badapple Chess
 
-![bad apple in chess.com analysis board](badapplereadme.gif)
-
+<video src="https://codeberg.org/jaroflemonade/badapplechess/raw/branch/master/badapplereadme.mp4" controls muted autoplay loop width="400"></video>
+  
 there's no pause button
 
-## how to setup
+## How to setup
 
-This repo comes with precomputed frames. In case you want to regenerate them anyways:
+This repo comes with precomputed frames, but, in case you want to regenerate them anyways:
 
 - run [getframes.sh](getframes.sh) to get the frames from the video.
 
