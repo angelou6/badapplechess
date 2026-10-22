@@ -1,6 +1,6 @@
 # Badapple Chess
 
-<video src="https://codeberg.org/jaroflemonade/badapplechess/raw/branch/master/badapplereadme.mp4" controls muted autoplay loop width="400"></video>
+<video src="https://github.com/angelou6/badapplechess/raw/master/badapplereadme.mp4" controls width="400"></video>
   
 there's no pause button
 
